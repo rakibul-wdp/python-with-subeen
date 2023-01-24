@@ -4,5 +4,6 @@ def generate_multiplication_table(n):
 
 n = input("Enter number: ")
 n= int(n)
-value = generate_multiplication_table(n)
-print(value)
+for i in range(1, n + 1):
+  generate_multiplication_table(i)
+  print("")
