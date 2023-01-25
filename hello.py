@@ -100,8 +100,21 @@ x = 3 != 2
 #   converted = weight * 0.45
 #   print("Weight in Kgs: " + str(converted))
 
-i = 1
+# i = 1
 
-while i <= 10:
-  print(i * "*")
-  i += 1
+# while i <= 10:
+#   print(i * "*")
+#   i += 1
+
+# names =["Abul", "Babul", "Cabul", "Dabul", "Ebul"]
+# names[0] = "Chandu"
+# print(names[0:3])
+# print(names)
+
+numbers = [1, 2, 3, 4, 5]
+# numbers.append(6)
+# numbers.insert(0, -1)
+# numbers.remove(3)
+# numbers.clear()
+# print(1 in numbers)
+print(len(numbers))
