@@ -119,10 +119,14 @@ numbers = [1, 2, 3, 4, 5]
 # print(1 in numbers)
 # print(len(numbers))
 
-for item in numbers:
-  print(item)
+# for item in numbers:
+#   print(item)
 
-i = 0
-while i < len(numbers):
-  print(numbers[i])
-  i += 1
+# i = 0
+# while i < len(numbers):
+#   print(numbers[i])
+#   i += 1
+
+# number = range(5, 10, 2)
+# for num in range(5):
+#   print(num)
