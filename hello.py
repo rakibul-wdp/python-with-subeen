@@ -40,9 +40,28 @@ str()
 # sum = float(num_one) + float(num_two)
 # print("Sum:" + str(sum))
 
-course = "python for beginners"
-print(course.upper())
-print(course.find('python'))
-print(course.replace('x', '4'))
-print('python' in course)
-print(course)
+# course = "python for beginners"
+# print(course.upper())
+# print(course.find('python'))
+# print(course.replace('x', '4'))
+# print('python' in course)
+# print(course)
+
+# print(10 ** 3)
+
+x = (10 + 3) * 2
+# print(x)
+
+x = 3 != 2
+# print(x)
+# >, >=, < ,<=, ==, !=
+
+price = 5
+print(price > 10 and price < 30)
+print(price > 10 or price < 30)
+print(not price > 10)
+
+
+# and (both)
+# or (at least one)
+# not 
