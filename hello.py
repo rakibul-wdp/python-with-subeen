@@ -130,3 +130,7 @@ numbers = [1, 2, 3, 4, 5]
 # number = range(5, 10, 2)
 # for num in range(5):
 #   print(num)
+
+numbers = (1, 2, 3, 3)
+numbers.count(3)
+print(numbers)
