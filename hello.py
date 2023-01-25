@@ -66,16 +66,36 @@ x = 3 != 2
 # or (at least one)
 # not 
 
-temperature = 25
+# temperature = 25
 
-if temperature > 30:
-  print("It's a hot day")
-  print("Drink plenty of water")
-elif temperature > 20: # (20, 30]
-  print("It's a nice day")
-elif temperature > 10: # (10, 20]
-  print("It's a bit cold")
+# if temperature > 30:
+#   print("It's a hot day")
+#   print("Drink plenty of water")
+# elif temperature > 20: # (20, 30]
+#   print("It's a nice day")
+# elif temperature > 10: # (10, 20]
+#   print("It's a bit cold")
+# else:
+#   print("It's cold")
+
+# print("Done")
+
+# weight = float(input("Weight: "))
+# parameter = input("(K)g or (L)bs: ")
+
+# if parameter.lower() == "l":
+#   final = weight * 0.45359237
+#   print("Weight in Kg: ", final)
+# elif parameter.lower() == "k":
+#   final = weight * 2.2
+#   print("Weight in Lb: ", final)
+
+weight = float(input("Weight: "))
+unit = input("(K)g or (L)bs: ")
+
+if unit.upper() == "K":
+  converted = weight / 0.45
+  print("Weight in Lbs: " + str(converted))
 else:
-  print("It's cold")
-
-print("Done")
+  converted = weight * 0.45
+  print("Weight in Kgs: " + str(converted))
