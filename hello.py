@@ -34,8 +34,15 @@ float()
 bool()
 str()
 
-num_one = input("First: ")
-num_two = input("Second: ")
+# num_one = input("First: ")
+# num_two = input("Second: ")
 
-sum = float(num_one) + float(num_two)
-print("Sum:", sum)
+# sum = float(num_one) + float(num_two)
+# print("Sum:" + str(sum))
+
+course = "python for beginners"
+print(course.upper())
+print(course.find('python'))
+print(course.replace('x', '4'))
+print('python' in course)
+print(course)
