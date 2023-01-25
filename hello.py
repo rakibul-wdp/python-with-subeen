@@ -25,11 +25,17 @@ is_new = True
 # name = input("What is your name? ")
 # print("hello " + name)
 
-birth_year = input("Enter your birth year: ")
-age = 2020 - int(birth_year)
-print(age)
+# birth_year = input("Enter your birth year: ")
+# age = 2020 - int(birth_year)
+# print(age)
 
 int()
 float()
 bool()
 str()
+
+num_one = input("First: ")
+num_two = input("Second: ")
+
+sum = float(num_one) + float(num_two)
+print("Sum:", sum)
