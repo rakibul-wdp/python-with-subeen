@@ -90,12 +90,18 @@ x = 3 != 2
 #   final = weight * 2.2
 #   print("Weight in Lb: ", final)
 
-weight = float(input("Weight: "))
-unit = input("(K)g or (L)bs: ")
+# weight = float(input("Weight: "))
+# unit = input("(K)g or (L)bs: ")
 
-if unit.upper() == "K":
-  converted = weight / 0.45
-  print("Weight in Lbs: " + str(converted))
-else:
-  converted = weight * 0.45
-  print("Weight in Kgs: " + str(converted))
+# if unit.upper() == "K":
+#   converted = weight / 0.45
+#   print("Weight in Lbs: " + str(converted))
+# else:
+#   converted = weight * 0.45
+#   print("Weight in Kgs: " + str(converted))
+
+i = 1
+
+while i <= 10:
+  print(i * "*")
+  i += 1
