@@ -56,12 +56,26 @@ x = 3 != 2
 # print(x)
 # >, >=, < ,<=, ==, !=
 
-price = 5
-print(price > 10 and price < 30)
-print(price > 10 or price < 30)
-print(not price > 10)
+# price = 5
+# print(price > 10 and price < 30)
+# print(price > 10 or price < 30)
+# print(not price > 10)
 
 
 # and (both)
 # or (at least one)
 # not 
+
+temperature = 25
+
+if temperature > 30:
+  print("It's a hot day")
+  print("Drink plenty of water")
+elif temperature > 20: # (20, 30]
+  print("It's a nice day")
+elif temperature > 10: # (10, 20]
+  print("It's a bit cold")
+else:
+  print("It's cold")
+
+print("Done")
